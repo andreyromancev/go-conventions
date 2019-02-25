@@ -6,7 +6,7 @@ But should not take good variable names.
 
 ## Structure
 ### Use mutex head
-Mutex should be difined above variables it protects.
+Mutex should be declared above variables it protects.
 ```
 struct {
 	...
@@ -15,5 +15,8 @@ struct {
 	rateMu     sync.Mutex
 	rateLimits [categories]Rate
 	mostRecent rateLimitCategory
+	
+	// New variable declaration is separated by an empty line.
+	common service
 }
 ```

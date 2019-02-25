@@ -5,7 +5,7 @@
 But should not take good variable names.
 
 ## Structure
-# Use mutex head
+### Use mutex head
 Mutex should be difined above variables it protects.
 ```
 struct {

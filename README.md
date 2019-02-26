@@ -9,7 +9,7 @@ But should not take good variable names.
 Including function arguments.
 
 ## Structure
-### Use mutex head
+### Mutex hat
 Mutex should be declared above variables it protects.
 ```
 struct {

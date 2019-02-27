@@ -1,7 +1,7 @@
 # Go conventions
 
 ## Modules
-### Module name should be short
+#### Module name should be short
 But should not take good variable names.
 ### Module name should be singular
 

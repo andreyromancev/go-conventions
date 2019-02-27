@@ -3,6 +3,7 @@
 ## Modules
 ### Module name should be short
 But should not take good variable names.
+### Module name should be singular
 
 ## Variables
 ### Variable names should be in camelCase

@@ -8,8 +8,12 @@ But should not take good variable names.
 ## Variables
 ### Variable names should be in camelCase
 Including function arguments.
+### Variable should not be named after its type
 
-## Structure
+## Functions and methods
+### Getter name should not contain "get" prefix
+
+## Declarations
 ### Mutex hat
 Mutex should be declared above variables it protects.
 ```

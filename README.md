@@ -12,6 +12,7 @@ Including function arguments.
 
 ## Functions and methods
 ### Getter name should not contain "get" prefix
+### Return concrete types, expect interfaces
 
 ## Declarations
 ### Mutex hat
@@ -29,3 +30,7 @@ struct {
 	common service
 }
 ```
+
+
+# TODO
+### Should one export struct that returned from constructor.

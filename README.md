@@ -9,6 +9,7 @@ But should not take good variable names.
 ### Variable names should be in camelCase
 Including function arguments.
 ### Variable should not be named after its type
+### Variable name should be short and concise
 
 ## Functions and methods
 ### Getter name should not contain "get" prefix

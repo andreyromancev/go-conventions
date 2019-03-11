@@ -1,23 +1,18 @@
 # Go conventions
 
-## Modules
-### Module name should be short
-But should not take good variable names.
-### Module name should be singular
-
-## Variables
-### Variable names should be in camelCase
-Including function arguments.
-### Variable should not be named after its type
-### Variable name should be short and concise
+## Naming
+* Module name should be short, but should not take good variable names.
+* Variable name should be in camelCase, including function arguments.
+* Variable name should not contain its type
+* Type names should not contain its category (i.e interface, implementation etc.)
+* Variable name should be short and concise
+* Getter name should not contain `get` prefix
 
 ## Functions and methods
-### Getter name should not contain "get" prefix
-### Return concrete types, expect interfaces
+* Return concrete types, expect interfaces
 
 ## Declarations
-### Mutex hat
-Mutex should be declared above variables it protects.
+* Mutex should be declared above variables it protects.
 ```
 struct {
 	...

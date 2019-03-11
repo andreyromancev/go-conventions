@@ -2,9 +2,10 @@
 
 ## Naming
 * Module name should be short, but should not take good variable names.
+* Type names should not contain its category (i.e interface, implementation etc.)
 * Variable name should be in camelCase, including function arguments.
 * Variable name should not contain its type
-* Type names should not contain its category (i.e interface, implementation etc.)
+* The greater the distance between a name’s declaration and its uses, the longer the name should be
 * Variable name should be short and concise
 * Getter name should not contain `get` prefix
 
@@ -13,19 +14,19 @@
 
 ## Declarations
 * Mutex should be declared above variables it protects.
-```
-struct {
-	...
+	```
+	struct {
+		...
 
-	// rateMu protects rateLimits and mostRecent.
-	rateMu     sync.Mutex
-	rateLimits [categories]Rate
-	mostRecent rateLimitCategory
-	
-	// New variable declaration is separated by an empty line.
-	common service
-}
-```
+		// rateMu protects rateLimits and mostRecent.
+		rateMu     sync.Mutex
+		rateLimits [categories]Rate
+		mostRecent rateLimitCategory
+
+		// New variable declaration is separated by an empty line.
+		common service
+	}
+	```
 
 
 # TODO

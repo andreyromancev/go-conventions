@@ -12,7 +12,7 @@
 * Getter name should not contain `get` prefix.
 
 ## Functions and methods
-* Return concrete types, expect interfaces.
+* Functions should return concrete types, but expect interfaces.
 
 ## Interfaces
 * Interface should describe behaviour, not object.

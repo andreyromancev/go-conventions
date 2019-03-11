@@ -3,6 +3,7 @@
 ## Naming
 * Module name should be short, but should not take good variable names.
 * Module name should be a single word
+* Module name should bot be generic ("base", "common", "util", etc.)
 * Type names should not contain its category (i.e interface, implementation etc.).
 * Variable name should be in camelCase, including function arguments.
 * Variable name should not contain its type.

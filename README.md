@@ -2,15 +2,18 @@
 
 ## Naming
 * Module name should be short, but should not take good variable names.
-* Type names should not contain its category (i.e interface, implementation etc.)
+* Type names should not contain its category (i.e interface, implementation etc.).
 * Variable name should be in camelCase, including function arguments.
-* Variable name should not contain its type
-* The greater the distance between a name’s declaration and its uses, the longer the name should be
-* Variable name should be short and concise
-* Getter name should not contain `get` prefix
+* Variable name should not contain its type.
+* The greater the distance between a name’s declaration and its uses, the longer the name should be.
+* Variable name should be short and concise.
+* Getter name should not contain `get` prefix.
 
 ## Functions and methods
-* Return concrete types, expect interfaces
+* Return concrete types, expect interfaces.
+
+## Interfaces
+* Interface should describe behaviour, not object.
 
 ## Declarations
 * Mutex should be declared above variables it protects.

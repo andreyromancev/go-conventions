@@ -7,7 +7,7 @@
 * Type names should not contain its category (i.e. interface, implementation etc.).
 * Variable name should be in camelCase, including function arguments.
 * Variable name should not contain its type.
-* The greater the distance between a name’s declaration and its uses, the longer the name should be.
+* The greater the distance between a name’s declaration and its last use, the longer the name should be.
 * Variable name should be short and concise.
 * Getter name should not contain `get` prefix.
 

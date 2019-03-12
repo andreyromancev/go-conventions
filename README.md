@@ -33,6 +33,14 @@
 	}
 	```
 
+## External tooling
+* `go:generate` commands should be declared one line before godoc for type.
+	```
+	// go:generate stringer -type=MyAwesomeType
+        
+	// MyAwesomeType can do anything and everything!
+	type MyAwesomeType struct {}
+	```
 
 # TODO
 ### Should one export struct that returned from constructor.

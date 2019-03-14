@@ -32,6 +32,11 @@
 		common service
 	}
 	```
+## Errors
+* Error text should not start from a capital letter or end with a `.`.
+
+## Comments
+* Comment shoud be a complete sentence and end with a `.`.
 
 ## External tooling
 * `go:generate` commands should be declared one line before godoc for type.

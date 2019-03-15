@@ -39,7 +39,8 @@
 * Comment shoud be a complete sentence and end with a `.`.
 
 ## Testing
-* Unit tests should not use tested unit methods to prepare test data.
+* Unit tests should be in the same package.
+* Unit tests should be black box (except when a certain test case cannot be achieved via black box).
 
 ## External tooling
 * `go:generate` commands should be declared one line before godoc for type.

@@ -38,6 +38,9 @@
 ## Comments
 * Comment shoud be a complete sentence and end with a `.`.
 
+## Testing
+* Unit tests should not use tested unit methods to prepare test data.
+
 ## External tooling
 * `go:generate` commands should be declared one line before godoc for type.
 	```

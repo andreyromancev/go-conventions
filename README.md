@@ -41,7 +41,7 @@
 ## Testing
 * Unit tests should be in the same package.
 * Unit tests should be black box (except when a certain test case cannot be achieved via black box).
-* Unit tests should not contain hard-coded test values. Fuzzing should be used instead.
+* Unit tests should use fuzzing in addition to hard-coded values, when possible.
 
 ## External tooling
 * `go:generate` commands should be declared one line before godoc for type.

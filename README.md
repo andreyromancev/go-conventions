@@ -32,6 +32,8 @@
 		common service
 	}
 	```
+* Function `init` should be declared before other types (in the beginning of file).
+
 ## Errors
 * Error text should not start from a capital letter or end with a `.`.
 

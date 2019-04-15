@@ -1,6 +1,7 @@
 # Go conventions
 
 ## Naming
+* Naming is important. Always.
 * Module name should be short, but should not take good variable names.
 * Module name should be a single word
 * Module name should not be generic ("base", "common", "util", etc.)
@@ -13,7 +14,7 @@
 
 ## Functions and methods
 * Functions should return concrete types, but expect interfaces.
-* Functions and methods should not use named return parameters.
+* Functions and methods should not use named return parameters. Function size doesn't matter.
 
 ## Interfaces
 * Interface should describe behaviour, not object.

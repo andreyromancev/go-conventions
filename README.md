@@ -13,6 +13,7 @@
 
 ## Functions and methods
 * Functions should return concrete types, but expect interfaces.
+* Functions and methods should not use named return parameters.
 
 ## Interfaces
 * Interface should describe behaviour, not object.

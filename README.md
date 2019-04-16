@@ -62,8 +62,10 @@
 * API should be designed for its default use case.
 * `nil` as a parameter should be discouraged.
 
-## Goroutine
+## Concurrency
+* Concurrency should be left to the caller. I.e. code should be synchronous be default.
 * Code that starts a Goroutine is responsible for its lifetime.
+
 
 ## Context
 * Context should be passed as the first parameter in the function. Never inside another struct.

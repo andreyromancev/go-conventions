@@ -17,6 +17,7 @@
 * Functions should return concrete types, but expect interfaces.
 * Functions and methods should not use named return parameters. Function size doesn't matter.
 * Happy path inside a function should have the smallest indent. I.e. Use early return on negative paths (like return error). 
+* Package-level function `init` should be discouraged.
 
 ## Interfaces
 * Interface should describe behaviour, not object.
@@ -36,10 +37,21 @@
 		common service
 	}
 	```
-* Function `init` should be declared before other types (in the beginning of file).
 
 ## Errors
 * Error text should not start from a capital letter or end with a `.`.
+* Returning error should be discouraged if it's possible to handle it in the returning funciton.
+* Errors should be handled once. For example, a code like this should be discouraged:
+	```
+	func WriteAll(w io.Writer, buf []byte) error {
+		_, err := w.Write(buf)
+		if err != nil {
+			log.Println("unable to write:", err) // annotated error goes to log file
+			return err                           // unannotated error returned to caller
+		}
+		return nil
+	}
+	```
 
 ## Comments
 * Comment shoud be a complete sentence and end with a `.`.

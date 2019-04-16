@@ -46,6 +46,10 @@
 * Comments on variables and constants should describe their contents, not their purpose.
 * Comments on functions should describe how to use them and (optionally) what they do.
 
+## API
+* API should be designed for its default use case.
+* `nil` as a parameter should be discouraged.
+
 ## Goroutine
 * Code that starts a Goroutine is responsible for its lifetime.
 

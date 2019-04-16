@@ -42,6 +42,12 @@
 ## Comments
 * Comment shoud be a complete sentence and end with a `.`.
 
+## Goroutine
+* Code that starts a Goroutine is responsible for its lifetime.
+
+## Context
+* Context should be passed as the first parameter in the function. Never inside another struct.
+
 ## Testing
 * Unit tests should be in the same package.
 * Unit tests should be black box (except when a certain test case cannot be achieved via black box).

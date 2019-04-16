@@ -43,6 +43,8 @@
 
 ## Comments
 * Comment shoud be a complete sentence and end with a `.`.
+* Comments on variables and constants should describe their contents, not their purpose.
+* Comments on functions should describe how to use them and (optionally) what they do.
 
 ## Goroutine
 * Code that starts a Goroutine is responsible for its lifetime.

@@ -11,6 +11,7 @@
 * The greater the distance between a name’s declaration and its last use, the longer the name should be.
 * Variable name should be short and concise.
 * Getter name should not contain `get` prefix.
+* Words in names that are initialisms or acronyms (e.g. "URL" or "NATO") have a consistent case. For example, "URL" should appear as "URL" or "url" (as in "urlPony", or "URLPony"), never as "Url". 
 
 ## Functions and methods
 * Functions should return concrete types, but expect interfaces.

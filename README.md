@@ -15,6 +15,7 @@
 ## Functions and methods
 * Functions should return concrete types, but expect interfaces.
 * Functions and methods should not use named return parameters. Function size doesn't matter.
+* Happy path inside a function should have the smallest indent. I.e. Use early return on negative paths (like return error). 
 
 ## Interfaces
 * Interface should describe behaviour, not object.

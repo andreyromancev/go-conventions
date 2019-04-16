@@ -41,7 +41,7 @@
 ## Errors
 * Error text should not start from a capital letter or end with a `.`.
 * Returning error should be discouraged if it's possible to handle it in the returning funciton.
-* Errors should be handled once. For example, a code like this should be discouraged:
+* Errors should be handled only once. For example, a code like this should be discouraged:
 	```
 	func WriteAll(w io.Writer, buf []byte) error {
 		_, err := w.Write(buf)

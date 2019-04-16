@@ -63,7 +63,7 @@
 * `nil` as a parameter should be discouraged.
 
 ## Concurrency
-* Concurrency should be left to the caller. I.e. code should be synchronous be default.
+* Concurrency should be left to the caller. I.e. functions should be synchronous be default.
 * Code that starts a Goroutine is responsible for its lifetime.
 
 
